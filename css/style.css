@@ -3,5 +3,27 @@
     margin: 0;
     padding: 0;
 }
+/*fuentes*/
+@font-face {
+    font-family: 'tyb';
+    src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+
+body {
+    display: block;
+}
 
 
+/*header*/
+header p {
+    background-color: #1CD1B0;
+    height: 38px;
+    padding: 10px;
+    padding-left: 27px;
+}
+h1 {
+    background-color: #00669F;
+    padding: 10px;
+    padding-left: 27px;
+    font-family: tyb;
+}
